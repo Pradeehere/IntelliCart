@@ -74,7 +74,7 @@ This will automatically parse the last 3 years of data (2016-2018), map older AS
 ├── app.py                     # Flask API routing layer & response serializer
 ├── recommender.py             # Math engines (User-CF, Item-CF, Hybrid, Cosine Similarity)
 ├── parse_amazon.py            # Memory-efficient Amazon UCSD streaming parser pipeline
-├── generate_perfect_ratings.py# Modern high-fidelity benchmark generator utility
+├── data_preprocessing.py      # Modern high-fidelity benchmark preprocessing utility
 ├── ratings.csv                # Active in-memory e-commerce ratings dataset
 ├── PROJECT_WALKTHROUGH.md     # Detailed mathematical equations & defense guides
 ├── templates/
