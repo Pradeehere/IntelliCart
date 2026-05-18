@@ -6,7 +6,7 @@ Designed as a premium, academic-grade portfolio showcase, the system is backed b
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 * **3-Engine Algorithm Suite**: Choose dynamically between:
   1. **User-Based Collaborative Filtering** (Weighted neighbors rating predictions).
@@ -19,7 +19,7 @@ Designed as a premium, academic-grade portfolio showcase, the system is backed b
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 * **Frontend**: Pure HTML5, Semantic CSS3 (Glassmorphism, custom light/dark theme cards, hover micro-animations), ES6 JavaScript (Asynchronous fetch REST pipeline).
 * **Backend**: Python 3, Flask, Flask-CORS.
@@ -28,7 +28,7 @@ Designed as a premium, academic-grade portfolio showcase, the system is backed b
 
 ---
 
-## 🏃 Run the Project Locally
+## Run the Project Locally
 
 ### 1. Prerequisites
 Ensure you have Python 3 installed. Clone the repository and navigate into the project directory:
@@ -68,7 +68,7 @@ This will automatically parse the last 3 years of data (2016-2018), map older AS
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 ├── app.py                     # Flask API routing layer & response serializer
