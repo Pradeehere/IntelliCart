@@ -76,7 +76,6 @@ This will automatically parse the last 3 years of data (2016-2018), map older AS
 ├── parse_amazon.py            # Memory-efficient Amazon UCSD streaming parser pipeline
 ├── data_preprocessing.py      # Modern high-fidelity benchmark preprocessing utility
 ├── ratings.csv                # Active in-memory e-commerce ratings dataset
-├── PROJECT_WALKTHROUGH.md     # Detailed mathematical equations & defense guides
 ├── templates/
 │   └── index.html             # Sleek dashboard markup
 ├── static/
