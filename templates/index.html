@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IntelliCart - Smart Recommendations, Smarter Shopping</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container nav-content">
+            <div class="logo">🛒 <span>IntelliCart</span></div>
+            <div class="tagline">Smart Recommendations, Smarter Shopping</div>
+        </div>
+    </header>
+
+    <main>
+        <!-- User Selector Section -->
+        <section class="section user-section">
+            <div class="container">
+                <h2 class="section-title">Select a Shopper Profile</h2>
+                <div class="user-selector-container">
+                    <select id="user-select" class="user-dropdown">
+                        <option value="" disabled selected>Loading users...</option>
+                    </select>
+                </div>
+                
+                <div id="shopper-workspace" class="user-layout-container hidden">
+                    <div id="purchase-history-container">
+                        <h3 class="subsection-title">Purchase History</h3>
+                        <div id="purchase-history-grid" class="cards-grid">
+                            <!-- Cards injected via JS -->
+                        </div>
+                    </div>
+                    
+                    <div id="simulation-container">
+                        <div class="card simulation-card">
+                            <h3 class="card-title" style="color: var(--accent-blue); display: flex; align-items: center; gap: 8px;">🛒 Simulate Shopping</h3>
+                            <p style="font-size: 0.85rem; color: #94a3b8; margin-bottom: 15px; line-height: 1.4;">Add a rating to see the similarity heatmap, analytics, and recommendations recalculate immediately!</p>
+                            <form id="rating-form">
+                                <div style="margin-bottom: 15px;">
+                                    <label style="display:block; font-size: 0.8rem; font-weight: 500; margin-bottom: 5px;">Select Product</label>
+                                    <select id="product-select" class="user-dropdown" style="max-width: 100%; width: 100%; padding: 10px;" required>
+                                        <option value="" disabled selected>Select a product...</option>
+                                    </select>
+                                </div>
+                                <div style="margin-bottom: 15px;">
+                                    <label style="display:block; font-size: 0.8rem; font-weight: 500; margin-bottom: 5px;">Rating (1 to 5 Stars)</label>
+                                    <div class="star-rating-input" id="star-rating-input" style="font-size: 1.8rem; cursor: pointer; display: flex; gap: 8px; color: #cbd5e1; user-select: none;">
+                                        <span class="star-input" data-rating="1">☆</span>
+                                        <span class="star-input" data-rating="2">☆</span>
+                                        <span class="star-input" data-rating="3">☆</span>
+                                        <span class="star-input" data-rating="4">☆</span>
+                                        <span class="star-input" data-rating="5">☆</span>
+                                    </div>
+                                    <input type="hidden" id="rating-value" value="" required>
+                                </div>
+                                <button type="submit" id="btn-submit-rating" class="btn-primary" style="width: 100%; padding: 10px;" disabled>Submit Purchase</button>
+                            </form>
+                            <div id="form-message" class="info-msg hidden" style="margin-top: 15px; padding: 10px; font-size: 0.85rem; text-align: center;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recommendations Section -->
+        <section class="section rec-section bg-alt">
+            <div class="container">
+                <h2 class="section-title">AI Recommendations for You</h2>
+                <div class="rec-controls">
+                    <div class="algo-pill-selector" id="algo-selector">
+                        <button class="algo-pill active" data-algo="user-based">User-Based</button>
+                        <button class="algo-pill" data-algo="item-based">Item-Based</button>
+                        <button class="algo-pill" data-algo="hybrid">Hybrid Engine</button>
+                    </div>
+                    <button id="btn-recommend" class="btn-primary" disabled>Get Recommendations</button>
+                </div>
+
+                <div id="rec-loading" class="spinner-container hidden">
+                    <div class="spinner"></div>
+                    <p>Analyzing shopper data...</p>
+                </div>
+
+                <div id="rec-error" class="error-msg hidden"></div>
+                <div id="rec-message" class="info-msg hidden"></div>
+
+                <div id="rec-grid" class="cards-grid hidden">
+                    <!-- Cards injected via JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section class="section how-it-works-section">
+            <div class="container">
+                <h2 class="section-title">How IntelliCart Works</h2>
+                <div class="steps-container">
+                    <div class="step-card">
+                        <div class="step-icon">📊</div>
+                        <h4 class="step-title">Collect Ratings</h4>
+                        <p class="step-desc">We track what users buy and rate</p>
+                    </div>
+                    <div class="step-arrow">→</div>
+                    <div class="step-card">
+                        <div class="step-icon">🤝</div>
+                        <h4 class="step-title">Find Similar Shoppers</h4>
+                        <p class="step-desc">We find users with similar taste using AI</p>
+                    </div>
+                    <div class="step-arrow">→</div>
+                    <div class="step-card">
+                        <div class="step-icon">🎯</div>
+                        <h4 class="step-title">Recommend Products</h4>
+                        <p class="step-desc">We suggest what similar shoppers loved</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Analytical Dashboard Section -->
+        <section class="section dashboard-section">
+            <div class="container">
+                <h2 class="section-title">Shopper Analytics Dashboard</h2>
+                <p class="section-subtitle">Real-time statistics of the IntelliCart system</p>
+                <div id="dashboard-loading" class="spinner-container">
+                    <div class="spinner"></div>
+                </div>
+                <div id="dashboard-error" class="error-msg hidden"></div>
+                <div id="dashboard-grid" class="dashboard-grid hidden">
+                    <div class="dash-card">
+                        <div class="dash-icon">📊</div>
+                        <div class="dash-value" id="stat-sparsity">0.0%</div>
+                        <div class="dash-label">Matrix Sparsity</div>
+                    </div>
+                    <div class="dash-card">
+                        <div class="dash-icon">👥</div>
+                        <div class="dash-value" id="stat-users">0</div>
+                        <div class="dash-label">Active Shoppers</div>
+                    </div>
+                    <div class="dash-card">
+                        <div class="dash-icon">📦</div>
+                        <div class="dash-value" id="stat-products">0</div>
+                        <div class="dash-label">Total Products</div>
+                    </div>
+                    <div class="dash-card">
+                        <div class="dash-icon">🛒</div>
+                        <div class="dash-value" id="stat-ratings">0</div>
+                        <div class="dash-label">Total Purchases</div>
+                    </div>
+                    <div class="dash-card">
+                        <div class="dash-icon">⚡</div>
+                        <div class="dash-value" id="stat-latency">0 ms</div>
+                        <div class="dash-label">Latency Metrics</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Similarity Heatmap Section -->
+        <section class="section heatmap-section bg-alt">
+            <div class="container">
+                <h2 class="section-title">Shopper Similarity Map (Top 15 Users)</h2>
+                <p class="section-subtitle">Darker = More Similar Taste</p>
+                
+                <div id="heatmap-loading" class="spinner-container">
+                    <div class="spinner"></div>
+                </div>
+                
+                <div id="heatmap-error" class="error-msg hidden"></div>
+                
+                <div class="table-responsive">
+                    <table id="heatmap-table" class="heatmap-table hidden">
+                        <!-- Table injected via JS -->
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>IntelliCart &copy; 2024 | Built with Python, Flask &amp; ❤️</p>
+            <p class="footer-sub">Powered by Collaborative Filtering AI</p>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

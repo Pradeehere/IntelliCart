@@ -1,0 +1,26 @@
+# Exclude gigabyte scale datasets
+Electronics_5.json
+
+# Backup datasets
+ratings_backup.csv
+
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE configurations
+.vscode/
+.idea/
+
+# Flask Debugger / OS files
+instance/
+.webassets-cache
+.DS_Store
+Thumbs.db

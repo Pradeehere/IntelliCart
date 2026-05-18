@@ -1,0 +1,558 @@
+user_id,product_id,product_name,category,rating
+U001,P002,Apple iPhone 14,Smartphones,5
+U001,P003,OnePlus 11 5G,Smartphones,4
+U001,P004,Realme Narzo 50,Smartphones,3
+U001,P006,boAt Rockerz 550 Headphones,Audio,4
+U001,P007,JBL Flip 6 Speaker,Audio,1
+U001,P017,Acer Nitro 27 Gaming Monitor,Monitors,4
+U001,P025,Apple MacBook Air M2,Laptops,1
+U001,P050,iRobot Roomba 692,Smart Home,2
+U002,P033,Kingston 256GB SSD,Storage,5
+U002,P042,TP-Link Smart Plug,Smart Home,4
+U002,P044,Apple Watch Series 8,Wearables,4
+U002,P049,Xiaomi Mi Robot Vacuum,Smart Home,3
+U003,P017,Acer Nitro 27 Gaming Monitor,Monitors,2
+U003,P032,Samsung 512GB SSD,Storage,5
+U003,P035,Canon EOS 1500D Camera,Cameras,3
+U003,P049,Xiaomi Mi Robot Vacuum,Smart Home,3
+U004,P008,Bose SoundLink Speaker,Audio,5
+U004,P012,HP Wireless Keyboard,Accessories,4
+U004,P039,Amazon Echo Dot,Smart Home,5
+U005,P013,Keychron K2 Keyboard,Accessories,2
+U005,P020,Samsung 65-inch QLED TV,Televisions,4
+U005,P022,Sony Bravia 50-inch TV,Televisions,1
+U005,P037,GoPro Hero 11,Cameras,5
+U005,P040,Google Nest Hub,Smart Home,3
+U005,P043,Xiaomi Smart Band 7,Wearables,3
+U006,P009,Sony SRS-XB33 Speaker,Audio,3
+U006,P017,Acer Nitro 27 Gaming Monitor,Monitors,4
+U006,P018,Samsung 32 Curved Monitor,Monitors,4
+U006,P025,Apple MacBook Air M2,Laptops,4
+U007,P015,Dell UltraSharp 27 Monitor,Monitors,4
+U007,P039,Amazon Echo Dot,Smart Home,3
+U007,P044,Apple Watch Series 8,Wearables,3
+U007,P045,Samsung Galaxy Watch 5,Wearables,4
+U007,P049,Xiaomi Mi Robot Vacuum,Smart Home,4
+U008,P004,Realme Narzo 50,Smartphones,2
+U008,P005,Sony WH-1000XM5 Headphones,Audio,4
+U008,P010,Logitech MX Master 3 Mouse,Accessories,5
+U008,P031,WD 1TB SSD,Storage,4
+U008,P037,GoPro Hero 11,Cameras,4
+U008,P045,Samsung Galaxy Watch 5,Wearables,5
+U008,P049,Xiaomi Mi Robot Vacuum,Smart Home,5
+U008,P050,iRobot Roomba 692,Smart Home,3
+U009,P006,boAt Rockerz 550 Headphones,Audio,4
+U009,P007,JBL Flip 6 Speaker,Audio,5
+U009,P009,Sony SRS-XB33 Speaker,Audio,5
+U009,P011,Razer DeathAdder Mouse,Accessories,4
+U009,P012,HP Wireless Keyboard,Accessories,4
+U009,P033,Kingston 256GB SSD,Storage,4
+U009,P037,GoPro Hero 11,Cameras,2
+U009,P050,iRobot Roomba 692,Smart Home,5
+U010,P011,Razer DeathAdder Mouse,Accessories,5
+U010,P016,LG 24 IPS Monitor,Monitors,2
+U010,P040,Google Nest Hub,Smart Home,4
+U011,P001,Samsung Galaxy S23,Smartphones,3
+U011,P009,Sony SRS-XB33 Speaker,Audio,2
+U011,P012,HP Wireless Keyboard,Accessories,5
+U011,P029,Dell Inspiron 15 Laptop,Laptops,5
+U011,P037,GoPro Hero 11,Cameras,5
+U011,P039,Amazon Echo Dot,Smart Home,4
+U012,P001,Samsung Galaxy S23,Smartphones,3
+U012,P009,Sony SRS-XB33 Speaker,Audio,4
+U012,P016,LG 24 IPS Monitor,Monitors,3
+U012,P032,Samsung 512GB SSD,Storage,5
+U012,P046,Noise ColorFit Pro 4,Wearables,5
+U013,P011,Razer DeathAdder Mouse,Accessories,1
+U013,P013,Keychron K2 Keyboard,Accessories,5
+U013,P016,LG 24 IPS Monitor,Monitors,5
+U013,P024,Vu 55-inch Premium TV,Televisions,4
+U013,P026,HP Pavilion 15 Laptop,Laptops,3
+U013,P027,Lenovo IdeaPad 3 Laptop,Laptops,4
+U013,P039,Amazon Echo Dot,Smart Home,1
+U013,P040,Google Nest Hub,Smart Home,5
+U014,P007,JBL Flip 6 Speaker,Audio,4
+U014,P010,Logitech MX Master 3 Mouse,Accessories,2
+U014,P020,Samsung 65-inch QLED TV,Televisions,5
+U014,P034,Sony Alpha A6400 Camera,Cameras,5
+U014,P046,Noise ColorFit Pro 4,Wearables,2
+U015,P012,HP Wireless Keyboard,Accessories,5
+U015,P016,LG 24 IPS Monitor,Monitors,5
+U015,P029,Dell Inspiron 15 Laptop,Laptops,4
+U015,P032,Samsung 512GB SSD,Storage,4
+U015,P037,GoPro Hero 11,Cameras,5
+U015,P039,Amazon Echo Dot,Smart Home,5
+U016,P003,OnePlus 11 5G,Smartphones,5
+U016,P004,Realme Narzo 50,Smartphones,2
+U016,P007,JBL Flip 6 Speaker,Audio,2
+U016,P013,Keychron K2 Keyboard,Accessories,1
+U016,P029,Dell Inspiron 15 Laptop,Laptops,4
+U016,P036,Nikon D3500 Camera,Cameras,4
+U016,P044,Apple Watch Series 8,Wearables,2
+U016,P050,iRobot Roomba 692,Smart Home,1
+U017,P015,Dell UltraSharp 27 Monitor,Monitors,4
+U017,P024,Vu 55-inch Premium TV,Televisions,3
+U017,P035,Canon EOS 1500D Camera,Cameras,3
+U018,P007,JBL Flip 6 Speaker,Audio,2
+U018,P014,Logitech K380 Keyboard,Accessories,3
+U018,P034,Sony Alpha A6400 Camera,Cameras,5
+U018,P046,Noise ColorFit Pro 4,Wearables,5
+U019,P008,Bose SoundLink Speaker,Audio,4
+U019,P009,Sony SRS-XB33 Speaker,Audio,5
+U019,P010,Logitech MX Master 3 Mouse,Accessories,5
+U019,P028,ASUS VivoBook 15 Laptop,Laptops,2
+U019,P032,Samsung 512GB SSD,Storage,4
+U019,P045,Samsung Galaxy Watch 5,Wearables,2
+U020,P006,boAt Rockerz 550 Headphones,Audio,5
+U020,P026,HP Pavilion 15 Laptop,Laptops,4
+U020,P033,Kingston 256GB SSD,Storage,3
+U020,P036,Nikon D3500 Camera,Cameras,3
+U021,P001,Samsung Galaxy S23,Smartphones,3
+U021,P010,Logitech MX Master 3 Mouse,Accessories,5
+U021,P025,Apple MacBook Air M2,Laptops,5
+U021,P033,Kingston 256GB SSD,Storage,4
+U021,P037,GoPro Hero 11,Cameras,5
+U021,P044,Apple Watch Series 8,Wearables,3
+U022,P001,Samsung Galaxy S23,Smartphones,4
+U022,P010,Logitech MX Master 3 Mouse,Accessories,5
+U022,P012,HP Wireless Keyboard,Accessories,5
+U022,P016,LG 24 IPS Monitor,Monitors,5
+U022,P018,Samsung 32 Curved Monitor,Monitors,3
+U022,P050,iRobot Roomba 692,Smart Home,5
+U023,P010,Logitech MX Master 3 Mouse,Accessories,4
+U023,P011,Razer DeathAdder Mouse,Accessories,3
+U023,P019,ViewSonic 24 FHD Monitor,Monitors,2
+U023,P022,Sony Bravia 50-inch TV,Televisions,4
+U023,P026,HP Pavilion 15 Laptop,Laptops,2
+U023,P030,Seagate 2TB External HDD,Storage,5
+U023,P038,Kindle Paperwhite,E-Readers,2
+U023,P042,TP-Link Smart Plug,Smart Home,5
+U024,P007,JBL Flip 6 Speaker,Audio,4
+U024,P015,Dell UltraSharp 27 Monitor,Monitors,4
+U024,P020,Samsung 65-inch QLED TV,Televisions,4
+U024,P021,LG OLED 55-inch TV,Televisions,5
+U024,P039,Amazon Echo Dot,Smart Home,4
+U024,P045,Samsung Galaxy Watch 5,Wearables,2
+U024,P050,iRobot Roomba 692,Smart Home,1
+U025,P007,JBL Flip 6 Speaker,Audio,1
+U025,P012,HP Wireless Keyboard,Accessories,4
+U025,P029,Dell Inspiron 15 Laptop,Laptops,3
+U025,P030,Seagate 2TB External HDD,Storage,4
+U025,P031,WD 1TB SSD,Storage,2
+U025,P041,Amazon Echo Show,Smart Home,5
+U025,P047,Fitbit Charge 5,Wearables,5
+U026,P012,HP Wireless Keyboard,Accessories,4
+U026,P015,Dell UltraSharp 27 Monitor,Monitors,2
+U026,P024,Vu 55-inch Premium TV,Televisions,4
+U026,P025,Apple MacBook Air M2,Laptops,3
+U026,P030,Seagate 2TB External HDD,Storage,3
+U026,P033,Kingston 256GB SSD,Storage,3
+U026,P034,Sony Alpha A6400 Camera,Cameras,2
+U027,P001,Samsung Galaxy S23,Smartphones,5
+U027,P029,Dell Inspiron 15 Laptop,Laptops,4
+U027,P041,Amazon Echo Show,Smart Home,2
+U027,P043,Xiaomi Smart Band 7,Wearables,5
+U027,P044,Apple Watch Series 8,Wearables,3
+U028,P025,Apple MacBook Air M2,Laptops,3
+U028,P037,GoPro Hero 11,Cameras,3
+U028,P050,iRobot Roomba 692,Smart Home,3
+U029,P012,HP Wireless Keyboard,Accessories,2
+U029,P024,Vu 55-inch Premium TV,Televisions,4
+U029,P030,Seagate 2TB External HDD,Storage,4
+U029,P040,Google Nest Hub,Smart Home,5
+U029,P045,Samsung Galaxy Watch 5,Wearables,5
+U030,P001,Samsung Galaxy S23,Smartphones,3
+U030,P005,Sony WH-1000XM5 Headphones,Audio,4
+U030,P006,boAt Rockerz 550 Headphones,Audio,4
+U030,P035,Canon EOS 1500D Camera,Cameras,5
+U030,P048,Garmin Forerunner 245,Wearables,4
+U031,P003,OnePlus 11 5G,Smartphones,5
+U031,P015,Dell UltraSharp 27 Monitor,Monitors,4
+U031,P049,Xiaomi Mi Robot Vacuum,Smart Home,5
+U032,P005,Sony WH-1000XM5 Headphones,Audio,3
+U032,P006,boAt Rockerz 550 Headphones,Audio,5
+U032,P011,Razer DeathAdder Mouse,Accessories,5
+U032,P013,Keychron K2 Keyboard,Accessories,2
+U032,P027,Lenovo IdeaPad 3 Laptop,Laptops,3
+U032,P032,Samsung 512GB SSD,Storage,5
+U032,P037,GoPro Hero 11,Cameras,5
+U033,P007,JBL Flip 6 Speaker,Audio,5
+U033,P011,Razer DeathAdder Mouse,Accessories,3
+U033,P016,LG 24 IPS Monitor,Monitors,5
+U033,P021,LG OLED 55-inch TV,Televisions,5
+U033,P028,ASUS VivoBook 15 Laptop,Laptops,5
+U033,P043,Xiaomi Smart Band 7,Wearables,1
+U033,P050,iRobot Roomba 692,Smart Home,5
+U034,P016,LG 24 IPS Monitor,Monitors,1
+U034,P017,Acer Nitro 27 Gaming Monitor,Monitors,4
+U034,P025,Apple MacBook Air M2,Laptops,3
+U034,P049,Xiaomi Mi Robot Vacuum,Smart Home,4
+U035,P002,Apple iPhone 14,Smartphones,3
+U035,P004,Realme Narzo 50,Smartphones,5
+U035,P008,Bose SoundLink Speaker,Audio,3
+U035,P027,Lenovo IdeaPad 3 Laptop,Laptops,3
+U035,P041,Amazon Echo Show,Smart Home,4
+U035,P050,iRobot Roomba 692,Smart Home,5
+U036,P002,Apple iPhone 14,Smartphones,2
+U036,P003,OnePlus 11 5G,Smartphones,4
+U036,P012,HP Wireless Keyboard,Accessories,5
+U036,P033,Kingston 256GB SSD,Storage,5
+U036,P035,Canon EOS 1500D Camera,Cameras,3
+U036,P045,Samsung Galaxy Watch 5,Wearables,3
+U037,P003,OnePlus 11 5G,Smartphones,4
+U037,P018,Samsung 32 Curved Monitor,Monitors,4
+U037,P024,Vu 55-inch Premium TV,Televisions,1
+U037,P032,Samsung 512GB SSD,Storage,5
+U037,P039,Amazon Echo Dot,Smart Home,3
+U038,P013,Keychron K2 Keyboard,Accessories,5
+U038,P026,HP Pavilion 15 Laptop,Laptops,5
+U038,P032,Samsung 512GB SSD,Storage,3
+U038,P041,Amazon Echo Show,Smart Home,3
+U038,P045,Samsung Galaxy Watch 5,Wearables,2
+U038,P046,Noise ColorFit Pro 4,Wearables,4
+U038,P050,iRobot Roomba 692,Smart Home,3
+U039,P023,Mi 43-inch Android TV,Televisions,5
+U039,P028,ASUS VivoBook 15 Laptop,Laptops,2
+U039,P031,WD 1TB SSD,Storage,4
+U039,P041,Amazon Echo Show,Smart Home,3
+U039,P049,Xiaomi Mi Robot Vacuum,Smart Home,4
+U040,P023,Mi 43-inch Android TV,Televisions,4
+U040,P027,Lenovo IdeaPad 3 Laptop,Laptops,3
+U040,P034,Sony Alpha A6400 Camera,Cameras,1
+U040,P043,Xiaomi Smart Band 7,Wearables,4
+U041,P009,Sony SRS-XB33 Speaker,Audio,5
+U041,P031,WD 1TB SSD,Storage,5
+U041,P036,Nikon D3500 Camera,Cameras,3
+U041,P039,Amazon Echo Dot,Smart Home,3
+U041,P042,TP-Link Smart Plug,Smart Home,2
+U041,P044,Apple Watch Series 8,Wearables,4
+U041,P045,Samsung Galaxy Watch 5,Wearables,4
+U042,P004,Realme Narzo 50,Smartphones,5
+U042,P007,JBL Flip 6 Speaker,Audio,4
+U042,P020,Samsung 65-inch QLED TV,Televisions,5
+U042,P026,HP Pavilion 15 Laptop,Laptops,4
+U042,P027,Lenovo IdeaPad 3 Laptop,Laptops,4
+U042,P035,Canon EOS 1500D Camera,Cameras,1
+U042,P043,Xiaomi Smart Band 7,Wearables,2
+U042,P045,Samsung Galaxy Watch 5,Wearables,5
+U043,P001,Samsung Galaxy S23,Smartphones,4
+U043,P007,JBL Flip 6 Speaker,Audio,3
+U043,P011,Razer DeathAdder Mouse,Accessories,5
+U043,P018,Samsung 32 Curved Monitor,Monitors,5
+U043,P019,ViewSonic 24 FHD Monitor,Monitors,5
+U043,P023,Mi 43-inch Android TV,Televisions,5
+U043,P044,Apple Watch Series 8,Wearables,4
+U043,P049,Xiaomi Mi Robot Vacuum,Smart Home,5
+U044,P003,OnePlus 11 5G,Smartphones,4
+U044,P006,boAt Rockerz 550 Headphones,Audio,5
+U044,P007,JBL Flip 6 Speaker,Audio,5
+U044,P009,Sony SRS-XB33 Speaker,Audio,5
+U044,P029,Dell Inspiron 15 Laptop,Laptops,4
+U044,P041,Amazon Echo Show,Smart Home,5
+U044,P050,iRobot Roomba 692,Smart Home,4
+U045,P007,JBL Flip 6 Speaker,Audio,5
+U045,P012,HP Wireless Keyboard,Accessories,4
+U045,P014,Logitech K380 Keyboard,Accessories,4
+U045,P016,LG 24 IPS Monitor,Monitors,3
+U045,P036,Nikon D3500 Camera,Cameras,5
+U045,P048,Garmin Forerunner 245,Wearables,3
+U045,P050,iRobot Roomba 692,Smart Home,5
+U046,P017,Acer Nitro 27 Gaming Monitor,Monitors,2
+U046,P031,WD 1TB SSD,Storage,4
+U046,P033,Kingston 256GB SSD,Storage,3
+U046,P035,Canon EOS 1500D Camera,Cameras,3
+U047,P015,Dell UltraSharp 27 Monitor,Monitors,4
+U047,P028,ASUS VivoBook 15 Laptop,Laptops,2
+U047,P033,Kingston 256GB SSD,Storage,4
+U047,P035,Canon EOS 1500D Camera,Cameras,5
+U048,P001,Samsung Galaxy S23,Smartphones,5
+U048,P002,Apple iPhone 14,Smartphones,4
+U048,P008,Bose SoundLink Speaker,Audio,5
+U048,P014,Logitech K380 Keyboard,Accessories,4
+U048,P018,Samsung 32 Curved Monitor,Monitors,5
+U048,P034,Sony Alpha A6400 Camera,Cameras,5
+U048,P049,Xiaomi Mi Robot Vacuum,Smart Home,3
+U049,P004,Realme Narzo 50,Smartphones,4
+U049,P017,Acer Nitro 27 Gaming Monitor,Monitors,4
+U049,P019,ViewSonic 24 FHD Monitor,Monitors,4
+U049,P032,Samsung 512GB SSD,Storage,5
+U050,P002,Apple iPhone 14,Smartphones,2
+U050,P006,boAt Rockerz 550 Headphones,Audio,4
+U050,P009,Sony SRS-XB33 Speaker,Audio,1
+U050,P016,LG 24 IPS Monitor,Monitors,4
+U050,P023,Mi 43-inch Android TV,Televisions,4
+U050,P033,Kingston 256GB SSD,Storage,4
+U050,P038,Kindle Paperwhite,E-Readers,3
+U050,P043,Xiaomi Smart Band 7,Wearables,2
+U051,P017,Acer Nitro 27 Gaming Monitor,Monitors,4
+U051,P018,Samsung 32 Curved Monitor,Monitors,1
+U051,P028,ASUS VivoBook 15 Laptop,Laptops,5
+U051,P035,Canon EOS 1500D Camera,Cameras,3
+U051,P047,Fitbit Charge 5,Wearables,2
+U052,P004,Realme Narzo 50,Smartphones,5
+U052,P005,Sony WH-1000XM5 Headphones,Audio,3
+U052,P015,Dell UltraSharp 27 Monitor,Monitors,3
+U052,P044,Apple Watch Series 8,Wearables,5
+U052,P048,Garmin Forerunner 245,Wearables,1
+U053,P003,OnePlus 11 5G,Smartphones,3
+U053,P014,Logitech K380 Keyboard,Accessories,5
+U053,P034,Sony Alpha A6400 Camera,Cameras,4
+U053,P041,Amazon Echo Show,Smart Home,4
+U054,P003,OnePlus 11 5G,Smartphones,5
+U054,P016,LG 24 IPS Monitor,Monitors,4
+U054,P025,Apple MacBook Air M2,Laptops,3
+U054,P027,Lenovo IdeaPad 3 Laptop,Laptops,5
+U054,P039,Amazon Echo Dot,Smart Home,4
+U054,P042,TP-Link Smart Plug,Smart Home,4
+U054,P050,iRobot Roomba 692,Smart Home,5
+U055,P007,JBL Flip 6 Speaker,Audio,5
+U055,P025,Apple MacBook Air M2,Laptops,5
+U055,P027,Lenovo IdeaPad 3 Laptop,Laptops,4
+U055,P040,Google Nest Hub,Smart Home,2
+U055,P045,Samsung Galaxy Watch 5,Wearables,4
+U055,P048,Garmin Forerunner 245,Wearables,3
+U055,P049,Xiaomi Mi Robot Vacuum,Smart Home,4
+U056,P001,Samsung Galaxy S23,Smartphones,5
+U056,P019,ViewSonic 24 FHD Monitor,Monitors,4
+U056,P025,Apple MacBook Air M2,Laptops,5
+U056,P028,ASUS VivoBook 15 Laptop,Laptops,5
+U056,P032,Samsung 512GB SSD,Storage,5
+U056,P035,Canon EOS 1500D Camera,Cameras,4
+U056,P044,Apple Watch Series 8,Wearables,5
+U057,P009,Sony SRS-XB33 Speaker,Audio,5
+U057,P014,Logitech K380 Keyboard,Accessories,5
+U057,P033,Kingston 256GB SSD,Storage,5
+U057,P043,Xiaomi Smart Band 7,Wearables,4
+U057,P048,Garmin Forerunner 245,Wearables,3
+U058,P007,JBL Flip 6 Speaker,Audio,4
+U058,P017,Acer Nitro 27 Gaming Monitor,Monitors,5
+U058,P036,Nikon D3500 Camera,Cameras,4
+U059,P002,Apple iPhone 14,Smartphones,4
+U059,P019,ViewSonic 24 FHD Monitor,Monitors,3
+U059,P021,LG OLED 55-inch TV,Televisions,4
+U059,P030,Seagate 2TB External HDD,Storage,5
+U059,P031,WD 1TB SSD,Storage,3
+U060,P001,Samsung Galaxy S23,Smartphones,4
+U060,P007,JBL Flip 6 Speaker,Audio,4
+U060,P019,ViewSonic 24 FHD Monitor,Monitors,3
+U060,P020,Samsung 65-inch QLED TV,Televisions,5
+U060,P026,HP Pavilion 15 Laptop,Laptops,4
+U060,P028,ASUS VivoBook 15 Laptop,Laptops,1
+U060,P029,Dell Inspiron 15 Laptop,Laptops,3
+U061,P007,JBL Flip 6 Speaker,Audio,4
+U061,P013,Keychron K2 Keyboard,Accessories,5
+U061,P027,Lenovo IdeaPad 3 Laptop,Laptops,4
+U061,P038,Kindle Paperwhite,E-Readers,3
+U061,P041,Amazon Echo Show,Smart Home,5
+U061,P049,Xiaomi Mi Robot Vacuum,Smart Home,4
+U062,P003,OnePlus 11 5G,Smartphones,5
+U062,P004,Realme Narzo 50,Smartphones,4
+U062,P012,HP Wireless Keyboard,Accessories,2
+U062,P027,Lenovo IdeaPad 3 Laptop,Laptops,3
+U062,P046,Noise ColorFit Pro 4,Wearables,3
+U063,P014,Logitech K380 Keyboard,Accessories,5
+U063,P017,Acer Nitro 27 Gaming Monitor,Monitors,4
+U063,P046,Noise ColorFit Pro 4,Wearables,5
+U063,P050,iRobot Roomba 692,Smart Home,4
+U064,P004,Realme Narzo 50,Smartphones,5
+U064,P013,Keychron K2 Keyboard,Accessories,2
+U064,P021,LG OLED 55-inch TV,Televisions,1
+U064,P022,Sony Bravia 50-inch TV,Televisions,3
+U065,P022,Sony Bravia 50-inch TV,Televisions,4
+U065,P037,GoPro Hero 11,Cameras,5
+U065,P049,Xiaomi Mi Robot Vacuum,Smart Home,5
+U066,P001,Samsung Galaxy S23,Smartphones,4
+U066,P022,Sony Bravia 50-inch TV,Televisions,3
+U066,P034,Sony Alpha A6400 Camera,Cameras,4
+U067,P003,OnePlus 11 5G,Smartphones,2
+U067,P012,HP Wireless Keyboard,Accessories,5
+U067,P014,Logitech K380 Keyboard,Accessories,4
+U068,P007,JBL Flip 6 Speaker,Audio,4
+U068,P010,Logitech MX Master 3 Mouse,Accessories,5
+U068,P011,Razer DeathAdder Mouse,Accessories,4
+U068,P020,Samsung 65-inch QLED TV,Televisions,4
+U068,P027,Lenovo IdeaPad 3 Laptop,Laptops,4
+U068,P034,Sony Alpha A6400 Camera,Cameras,3
+U068,P045,Samsung Galaxy Watch 5,Wearables,2
+U068,P050,iRobot Roomba 692,Smart Home,5
+U069,P010,Logitech MX Master 3 Mouse,Accessories,3
+U069,P025,Apple MacBook Air M2,Laptops,2
+U069,P027,Lenovo IdeaPad 3 Laptop,Laptops,3
+U069,P032,Samsung 512GB SSD,Storage,5
+U069,P034,Sony Alpha A6400 Camera,Cameras,3
+U069,P043,Xiaomi Smart Band 7,Wearables,4
+U069,P046,Noise ColorFit Pro 4,Wearables,3
+U070,P028,ASUS VivoBook 15 Laptop,Laptops,4
+U070,P036,Nikon D3500 Camera,Cameras,3
+U070,P049,Xiaomi Mi Robot Vacuum,Smart Home,3
+U071,P004,Realme Narzo 50,Smartphones,2
+U071,P009,Sony SRS-XB33 Speaker,Audio,3
+U071,P012,HP Wireless Keyboard,Accessories,3
+U071,P015,Dell UltraSharp 27 Monitor,Monitors,2
+U071,P022,Sony Bravia 50-inch TV,Televisions,4
+U071,P040,Google Nest Hub,Smart Home,2
+U071,P045,Samsung Galaxy Watch 5,Wearables,3
+U071,P049,Xiaomi Mi Robot Vacuum,Smart Home,5
+U072,P016,LG 24 IPS Monitor,Monitors,5
+U072,P027,Lenovo IdeaPad 3 Laptop,Laptops,4
+U072,P039,Amazon Echo Dot,Smart Home,3
+U073,P009,Sony SRS-XB33 Speaker,Audio,4
+U073,P027,Lenovo IdeaPad 3 Laptop,Laptops,4
+U073,P049,Xiaomi Mi Robot Vacuum,Smart Home,5
+U074,P005,Sony WH-1000XM5 Headphones,Audio,4
+U074,P020,Samsung 65-inch QLED TV,Televisions,1
+U074,P031,WD 1TB SSD,Storage,4
+U074,P032,Samsung 512GB SSD,Storage,5
+U074,P036,Nikon D3500 Camera,Cameras,4
+U074,P039,Amazon Echo Dot,Smart Home,3
+U075,P017,Acer Nitro 27 Gaming Monitor,Monitors,3
+U075,P045,Samsung Galaxy Watch 5,Wearables,5
+U075,P047,Fitbit Charge 5,Wearables,4
+U076,P017,Acer Nitro 27 Gaming Monitor,Monitors,4
+U076,P021,LG OLED 55-inch TV,Televisions,4
+U076,P032,Samsung 512GB SSD,Storage,2
+U076,P036,Nikon D3500 Camera,Cameras,5
+U076,P038,Kindle Paperwhite,E-Readers,3
+U076,P040,Google Nest Hub,Smart Home,3
+U076,P044,Apple Watch Series 8,Wearables,5
+U077,P019,ViewSonic 24 FHD Monitor,Monitors,2
+U077,P022,Sony Bravia 50-inch TV,Televisions,3
+U077,P023,Mi 43-inch Android TV,Televisions,5
+U077,P037,GoPro Hero 11,Cameras,5
+U077,P041,Amazon Echo Show,Smart Home,2
+U077,P049,Xiaomi Mi Robot Vacuum,Smart Home,1
+U078,P009,Sony SRS-XB33 Speaker,Audio,4
+U078,P033,Kingston 256GB SSD,Storage,3
+U078,P041,Amazon Echo Show,Smart Home,4
+U079,P010,Logitech MX Master 3 Mouse,Accessories,5
+U079,P017,Acer Nitro 27 Gaming Monitor,Monitors,1
+U079,P030,Seagate 2TB External HDD,Storage,4
+U079,P036,Nikon D3500 Camera,Cameras,3
+U079,P037,GoPro Hero 11,Cameras,4
+U079,P040,Google Nest Hub,Smart Home,2
+U080,P016,LG 24 IPS Monitor,Monitors,4
+U080,P027,Lenovo IdeaPad 3 Laptop,Laptops,3
+U080,P037,GoPro Hero 11,Cameras,5
+U080,P042,TP-Link Smart Plug,Smart Home,1
+U081,P003,OnePlus 11 5G,Smartphones,4
+U081,P009,Sony SRS-XB33 Speaker,Audio,5
+U081,P044,Apple Watch Series 8,Wearables,5
+U082,P007,JBL Flip 6 Speaker,Audio,5
+U082,P009,Sony SRS-XB33 Speaker,Audio,3
+U082,P014,Logitech K380 Keyboard,Accessories,4
+U082,P017,Acer Nitro 27 Gaming Monitor,Monitors,4
+U082,P028,ASUS VivoBook 15 Laptop,Laptops,5
+U082,P042,TP-Link Smart Plug,Smart Home,4
+U082,P046,Noise ColorFit Pro 4,Wearables,5
+U083,P001,Samsung Galaxy S23,Smartphones,5
+U083,P017,Acer Nitro 27 Gaming Monitor,Monitors,4
+U083,P022,Sony Bravia 50-inch TV,Televisions,4
+U083,P024,Vu 55-inch Premium TV,Televisions,4
+U083,P027,Lenovo IdeaPad 3 Laptop,Laptops,4
+U083,P035,Canon EOS 1500D Camera,Cameras,5
+U084,P009,Sony SRS-XB33 Speaker,Audio,4
+U084,P018,Samsung 32 Curved Monitor,Monitors,3
+U084,P033,Kingston 256GB SSD,Storage,5
+U084,P037,GoPro Hero 11,Cameras,5
+U084,P047,Fitbit Charge 5,Wearables,5
+U085,P005,Sony WH-1000XM5 Headphones,Audio,4
+U085,P014,Logitech K380 Keyboard,Accessories,5
+U085,P018,Samsung 32 Curved Monitor,Monitors,1
+U085,P031,WD 1TB SSD,Storage,4
+U085,P042,TP-Link Smart Plug,Smart Home,4
+U085,P050,iRobot Roomba 692,Smart Home,5
+U086,P009,Sony SRS-XB33 Speaker,Audio,3
+U086,P025,Apple MacBook Air M2,Laptops,5
+U086,P029,Dell Inspiron 15 Laptop,Laptops,5
+U086,P035,Canon EOS 1500D Camera,Cameras,2
+U086,P036,Nikon D3500 Camera,Cameras,5
+U086,P038,Kindle Paperwhite,E-Readers,1
+U086,P050,iRobot Roomba 692,Smart Home,2
+U087,P020,Samsung 65-inch QLED TV,Televisions,5
+U087,P023,Mi 43-inch Android TV,Televisions,3
+U087,P033,Kingston 256GB SSD,Storage,2
+U087,P035,Canon EOS 1500D Camera,Cameras,5
+U087,P044,Apple Watch Series 8,Wearables,5
+U087,P045,Samsung Galaxy Watch 5,Wearables,1
+U087,P049,Xiaomi Mi Robot Vacuum,Smart Home,4
+U088,P004,Realme Narzo 50,Smartphones,5
+U088,P020,Samsung 65-inch QLED TV,Televisions,1
+U088,P022,Sony Bravia 50-inch TV,Televisions,4
+U088,P025,Apple MacBook Air M2,Laptops,3
+U088,P032,Samsung 512GB SSD,Storage,5
+U088,P040,Google Nest Hub,Smart Home,4
+U088,P045,Samsung Galaxy Watch 5,Wearables,4
+U088,P049,Xiaomi Mi Robot Vacuum,Smart Home,2
+U089,P016,LG 24 IPS Monitor,Monitors,4
+U089,P020,Samsung 65-inch QLED TV,Televisions,4
+U089,P021,LG OLED 55-inch TV,Televisions,4
+U089,P028,ASUS VivoBook 15 Laptop,Laptops,4
+U089,P034,Sony Alpha A6400 Camera,Cameras,4
+U089,P045,Samsung Galaxy Watch 5,Wearables,4
+U089,P046,Noise ColorFit Pro 4,Wearables,3
+U090,P001,Samsung Galaxy S23,Smartphones,5
+U090,P009,Sony SRS-XB33 Speaker,Audio,5
+U090,P012,HP Wireless Keyboard,Accessories,4
+U090,P022,Sony Bravia 50-inch TV,Televisions,3
+U090,P041,Amazon Echo Show,Smart Home,2
+U090,P045,Samsung Galaxy Watch 5,Wearables,5
+U091,P007,JBL Flip 6 Speaker,Audio,1
+U091,P009,Sony SRS-XB33 Speaker,Audio,4
+U091,P012,HP Wireless Keyboard,Accessories,4
+U091,P014,Logitech K380 Keyboard,Accessories,5
+U091,P018,Samsung 32 Curved Monitor,Monitors,1
+U091,P025,Apple MacBook Air M2,Laptops,4
+U091,P026,HP Pavilion 15 Laptop,Laptops,4
+U091,P027,Lenovo IdeaPad 3 Laptop,Laptops,3
+U092,P004,Realme Narzo 50,Smartphones,4
+U092,P010,Logitech MX Master 3 Mouse,Accessories,3
+U092,P019,ViewSonic 24 FHD Monitor,Monitors,5
+U092,P022,Sony Bravia 50-inch TV,Televisions,5
+U092,P039,Amazon Echo Dot,Smart Home,3
+U092,P046,Noise ColorFit Pro 4,Wearables,2
+U092,P048,Garmin Forerunner 245,Wearables,5
+U092,P050,iRobot Roomba 692,Smart Home,3
+U093,P005,Sony WH-1000XM5 Headphones,Audio,4
+U093,P040,Google Nest Hub,Smart Home,3
+U093,P044,Apple Watch Series 8,Wearables,4
+U094,P006,boAt Rockerz 550 Headphones,Audio,5
+U094,P020,Samsung 65-inch QLED TV,Televisions,5
+U094,P021,LG OLED 55-inch TV,Televisions,3
+U094,P022,Sony Bravia 50-inch TV,Televisions,4
+U094,P026,HP Pavilion 15 Laptop,Laptops,5
+U094,P028,ASUS VivoBook 15 Laptop,Laptops,3
+U094,P031,WD 1TB SSD,Storage,4
+U094,P048,Garmin Forerunner 245,Wearables,5
+U095,P003,OnePlus 11 5G,Smartphones,5
+U095,P009,Sony SRS-XB33 Speaker,Audio,5
+U095,P015,Dell UltraSharp 27 Monitor,Monitors,5
+U095,P035,Canon EOS 1500D Camera,Cameras,5
+U095,P050,iRobot Roomba 692,Smart Home,2
+U096,P001,Samsung Galaxy S23,Smartphones,4
+U096,P003,OnePlus 11 5G,Smartphones,2
+U096,P012,HP Wireless Keyboard,Accessories,5
+U096,P013,Keychron K2 Keyboard,Accessories,4
+U096,P020,Samsung 65-inch QLED TV,Televisions,4
+U096,P023,Mi 43-inch Android TV,Televisions,4
+U096,P033,Kingston 256GB SSD,Storage,5
+U097,P002,Apple iPhone 14,Smartphones,4
+U097,P014,Logitech K380 Keyboard,Accessories,3
+U097,P037,GoPro Hero 11,Cameras,4
+U097,P043,Xiaomi Smart Band 7,Wearables,4
+U098,P003,OnePlus 11 5G,Smartphones,3
+U098,P006,boAt Rockerz 550 Headphones,Audio,4
+U098,P027,Lenovo IdeaPad 3 Laptop,Laptops,1
+U098,P028,ASUS VivoBook 15 Laptop,Laptops,2
+U098,P044,Apple Watch Series 8,Wearables,5
+U098,P049,Xiaomi Mi Robot Vacuum,Smart Home,1
+U099,P009,Sony SRS-XB33 Speaker,Audio,4
+U099,P013,Keychron K2 Keyboard,Accessories,5
+U099,P028,ASUS VivoBook 15 Laptop,Laptops,4
+U099,P033,Kingston 256GB SSD,Storage,5
+U099,P041,Amazon Echo Show,Smart Home,5
+U099,P049,Xiaomi Mi Robot Vacuum,Smart Home,4
+U100,P005,Sony WH-1000XM5 Headphones,Audio,4
+U100,P013,Keychron K2 Keyboard,Accessories,4
+U100,P030,Seagate 2TB External HDD,Storage,5
+U100,P036,Nikon D3500 Camera,Cameras,4
+U100,P049,Xiaomi Mi Robot Vacuum,Smart Home,3
